@@ -1,0 +1,16 @@
+PODS:
+  - Cosmos (19.0.3)
+
+DEPENDENCIES:
+  - Cosmos (~> 19.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cosmos
+
+SPEC CHECKSUMS:
+  Cosmos: a6fb17284281fa12cf4c85c2efecd440a215ec44
+
+PODFILE CHECKSUM: 8f5572da6d81ffe4faec5cbaf10b99d84b6fb757
+
+COCOAPODS: 1.6.1
