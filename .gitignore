@@ -1,1 +1,4 @@
 /Pods
+build/*
+JomhamsTest.xcworkspace/*
+Podfile.lock

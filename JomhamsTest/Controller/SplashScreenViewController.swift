@@ -18,7 +18,9 @@ class SplashScreenViewController: UIViewController, NibIntializable {
     
     private func goToHomeScreen() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            self.present(TabBarViewController(), animated: true, completion: nil)
+            let viewController = TabBarViewController()
+            viewController.modalPresentationStyle = .fullScreen
+            self.present(viewController, animated: true, completion: nil)
         }
         
     }

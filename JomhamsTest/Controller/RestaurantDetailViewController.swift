@@ -27,17 +27,17 @@ class RestaurantDetailViewController: UIViewController, NibIntializable, UIScrol
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         fixedFrame.origin.y = 0 + scrollView.contentOffset.y
         self.topView.frame = fixedFrame
-        
+        print("frame is scrolling at \(scrollView.contentOffset.y)")
         if (self.lastContentOffset > scrollView.contentOffset.y) {
             // move up
-            if scrollView.contentOffset.y <= 200 {
+            if scrollView.contentOffset.y <= 150 {
                 self.topView.alpha = 0.8
                 self.topView.backgroundColor = UIColor.darkGray
             }
         }
         else if (self.lastContentOffset < scrollView.contentOffset.y) {
             // move down
-            if scrollView.contentOffset.y >= 250 {
+            if scrollView.contentOffset.y >= 200 {
                 self.topView.alpha = 1
                 self.topView.backgroundColor = UIColor.init(displayP3Red: 0.63, green:0.16, blue:0.16, alpha:1.0)
             }

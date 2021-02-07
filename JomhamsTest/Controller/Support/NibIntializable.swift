@@ -19,6 +19,7 @@ extension NibIntializable where Self: UIViewController {
         let type = Mirror(reflecting: self).subjectType
         let nibName = String(describing: type).components(separatedBy: ".")[0]
         let controller = Self(nibName: nibName, bundle: nil)
+        controller.modalPresentationStyle = .fullScreen
         return controller
     }
     

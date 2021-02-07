@@ -3,7 +3,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'JomhamsTest' do
-	pod 'Cosmos', '~> 19.0'
+	pod 'Cosmos', '~> 23.0'
 
 end
 
