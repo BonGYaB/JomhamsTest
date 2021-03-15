@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0E3C7F256D927F331FFC29A9 /* Pods_JomhamsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB5475B7817D7EA220E6DF5 /* Pods_JomhamsTest.framework */; };
+		79F42FC425F887B1004D67F4 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F42FC325F887B1004D67F4 /* UILabel.swift */; };
+		79FF0FD525D0EB62006F47CD /* UITextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF0FD425D0EB62006F47CD /* UITextLabel.swift */; };
 		7E01E85822A8F76500D620D6 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E01E85722A8F76500D620D6 /* AppImage.swift */; };
 		7E3121B522A2DECE00973A65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3121B422A2DECE00973A65 /* AppDelegate.swift */; };
 		7E3121B722A2DECE00973A65 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3121B622A2DECE00973A65 /* TabBarViewController.swift */; };
@@ -37,6 +39,8 @@
 /* Begin PBXFileReference section */
 		06638A905D67EC295F04A8B1 /* Pods-JomhamsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomhamsTest.release.xcconfig"; path = "Target Support Files/Pods-JomhamsTest/Pods-JomhamsTest.release.xcconfig"; sourceTree = "<group>"; };
 		298C31341D234E4A270EC245 /* Pods-JomhamsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomhamsTest.debug.xcconfig"; path = "Target Support Files/Pods-JomhamsTest/Pods-JomhamsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		79F42FC325F887B1004D67F4 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		79FF0FD425D0EB62006F47CD /* UITextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextLabel.swift; sourceTree = "<group>"; };
 		7E01E85722A8F76500D620D6 /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
 		7E3121B122A2DECE00973A65 /* JomhamsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JomhamsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3121B422A2DECE00973A65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -196,6 +200,8 @@
 			children = (
 				7EE6B0B222A4471B00D48584 /* UIImage+Color.swift */,
 				7E6D75A722A8D7900099500A /* UIView+Color.swift */,
+				79FF0FD425D0EB62006F47CD /* UITextLabel.swift */,
+				79F42FC325F887B1004D67F4 /* UILabel.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -330,11 +336,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E3121B722A2DECE00973A65 /* TabBarViewController.swift in Sources */,
+				79FF0FD525D0EB62006F47CD /* UITextLabel.swift in Sources */,
 				7E3121D022A2EE4600973A65 /* AppView.swift in Sources */,
 				7E7C01AB22A4042000800820 /* NibIntializable.swift in Sources */,
 				7EEACF3A22A635E40051BABC /* TableCell.swift in Sources */,
 				7E3121B522A2DECE00973A65 /* AppDelegate.swift in Sources */,
 				7E3121CB22A2E97C00973A65 /* SplashScreenViewController.swift in Sources */,
+				79F42FC425F887B1004D67F4 /* UILabel.swift in Sources */,
 				7E7C01AF22A4077B00800820 /* CouponViewController.swift in Sources */,
 				7EEACF3222A625280051BABC /* SearchViewController.swift in Sources */,
 				7E7C01B322A407DA00800820 /* ProfileViewController.swift in Sources */,

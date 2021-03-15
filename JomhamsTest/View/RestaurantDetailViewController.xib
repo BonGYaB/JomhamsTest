@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -31,7 +29,7 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ot-T8-zoz" userLabel="headerView">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffeeCulture" translatesAutoresizingMaskIntoConstraints="NO" id="Cv1-v5-7Ll" userLabel="backgroundHeader">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffeeCulture" translatesAutoresizingMaskIntoConstraints="NO" id="Cv1-v5-7Ll" userLabel="backgroundHeader">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
                                         </imageView>
                                     </subviews>
@@ -48,13 +46,14 @@
                                     <rect key="frame" x="0.0" y="250" width="414" height="59"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coffee Culture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocS-Vl-EyO" userLabel="labelTItle">
-                                            <rect key="frame" x="15" y="15" width="165" height="29"/>
+                                            <rect key="frame" x="15" y="15" width="163.5" height="29"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                            <nil key="textColor"/>
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52G-dm-3TJ" userLabel="labelKilometer">
                                             <rect key="frame" x="350.5" y="0.0" width="53.5" height="59"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <attributedString key="attributedText">
                                                 <fragment content="0.2 Km">
                                                     <attributes>
@@ -63,7 +62,7 @@
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
-                                            <nil key="highlightedColor"/>
+                                            <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </label>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -107,7 +106,7 @@
                                                 <constraint firstAttribute="height" constant="30" id="eLk-kd-php"/>
                                             </constraints>
                                         </view>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8A-CZ-tpf">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8A-CZ-tpf">
                                             <rect key="frame" x="314" y="0.0" width="100" height="60"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="100" id="mmu-Ar-X8G"/>
@@ -148,6 +147,7 @@
                                                 <constraint firstAttribute="width" constant="60" id="oAf-kX-hmV"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eV5-lB-J67" userLabel="vLine">
@@ -168,6 +168,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phnom Penh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jy1-Eg-0fk" userLabel="labelLocation">
                                             <rect key="frame" x="126.5" y="0.0" width="287.5" height="40"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -669,10 +670,10 @@
                     </constraints>
                 </scrollView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7bM-9A-tzy" userLabel="line" customClass="AppView" customModule="JomhamsTest" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="800.5" width="414" height="1.5"/>
+                    <rect key="frame" x="0.0" y="802" width="414" height="0.0"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="1.5" id="3pm-Kk-RiJ"/>
+                        <constraint firstAttribute="height" id="3pm-Kk-RiJ"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
@@ -703,6 +704,7 @@
                             </userDefinedRuntimeAttributes>
                         </button>
                     </subviews>
+                    <viewLayoutGuide key="safeArea" id="U4l-ia-kGY"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="rtg-Cr-xhd" firstAttribute="top" secondItem="U4l-ia-kGY" secondAttribute="top" id="1FT-Gq-Jbb"/>
@@ -715,9 +717,9 @@
                         <constraint firstItem="U4l-ia-kGY" firstAttribute="bottom" secondItem="jbp-7c-3Ps" secondAttribute="bottom" id="tWe-p1-BSH"/>
                         <constraint firstItem="jbp-7c-3Ps" firstAttribute="width" secondItem="tci-HT-t9W" secondAttribute="width" multiplier="1:2" id="yTg-mV-JBn"/>
                     </constraints>
-                    <viewLayoutGuide key="safeArea" id="U4l-ia-kGY"/>
                 </view>
             </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="tci-HT-t9W" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="04k-7k-G7m"/>
@@ -732,10 +734,26 @@
                 <constraint firstAttribute="trailing" secondItem="Rkz-yh-iNL" secondAttribute="trailing" id="gk0-Oj-Ksd"/>
                 <constraint firstItem="7bM-9A-tzy" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="oKM-kR-HnV"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="137.68115942028987" y="177.79017857142856"/>
         </view>
     </objects>
+    <designables>
+        <designable name="LuQ-UV-yGf">
+            <size key="intrinsicContentSize" width="32" height="32"/>
+        </designable>
+        <designable name="MmP-eh-sqA">
+            <size key="intrinsicContentSize" width="120" height="20"/>
+        </designable>
+        <designable name="a6l-ym-vwT">
+            <size key="intrinsicContentSize" width="32" height="32"/>
+        </designable>
+        <designable name="jbp-7c-3Ps">
+            <size key="intrinsicContentSize" width="94" height="32"/>
+        </designable>
+        <designable name="yOI-7j-olp">
+            <size key="intrinsicContentSize" width="32" height="32"/>
+        </designable>
+    </designables>
     <resources>
         <image name="calendar" width="32" height="32"/>
         <image name="clock" width="32" height="32"/>
